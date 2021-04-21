@@ -1,0 +1,63 @@
+/* reset */
+body {
+    margin: 0px ;
+}
+/* CSS */
+
+:root {
+    /* --theme: rgb(40, 246, 246) ; */
+    /* --header: rgb(70, 68, 68) ; */
+    --theme: white ;
+    --header: rgb(6, 6, 61) ;
+}
+
+h1, h2 {
+    background-color: var(--theme)  ;
+    display: inline ;
+    color: var(--header) ;
+}
+
+h1 {
+    margin-left:
+}
+
+h2 {
+    margin-right: 75px ;
+    padding: 8px ;
+}
+
+header {
+    background-color: var(--header) ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    height: 90px ;
+}
+
+ul {
+    display: inline ;
+    color: var(--theme) ;
+    margin-right: 70px ;
+}
+
+li {
+    display: inline-block ;
+    margin: 10px ;
+    font-size: x-large ;
+}
+
+#name {
+    background-color: var(--theme) ;
+    padding-left: 100px ;
+}
+
+#headImage {
+    display: flex ;
+    justify-content: flex-end ;
+    align-items: flex-end ;
+    height: 225px ;
+    background-image: url("../images/color_leaf.jpg") ;
+    /* background-repeat: no-repeat ; */
+    background-size: cover ;
+    width: 100% ;
+}
