@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 h1 {
-    margin-left:
+    margin-right: 8px ;
 }
 
 h2 {
@@ -46,9 +46,29 @@ li {
     font-size: x-large ;
 }
 
+section {
+    margin-left: 500px ;
+}
+
+section div {
+    background-color: orangered ;
+    height: 200px ;
+    width: 415px ;
+    /* padding: 20px ; */
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+
+}
+
+
+/* Classes*/
+
+/* Ids */
 #name {
     background-color: var(--theme) ;
     padding-left: 100px ;
+    width: 225px ;
+    height: 38px ;
 }
 
 #headImage {
@@ -60,4 +80,37 @@ li {
     /* background-repeat: no-repeat ; */
     background-size: cover ;
     width: 100% ;
+}
+
+#work1 {
+    width: 850px ;
+    height: 500px ;
+}
+
+#work2 {
+    display: flex ;
+    flex-wrap: wrap ;
+    height: 500px ;
+    background-color: white ;;
+    width: 850px ;
+}
+
+#work2-1, #work2-3 {
+    margin-right: 10px ;
+}
+
+#work2-2, #work2-4 {
+    margin-left: 10px ;
+}
+
+#contactMe div {
+    background-color: maroon ;
+    width: 850px ;
+    height: 100px ;
+ 
+}
+
+#resume div {
+    background-color: rgb(7, 51, 7) ;
+
 }
