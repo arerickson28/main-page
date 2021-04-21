@@ -47,18 +47,12 @@ li {
 }
 
 section {
-    margin-left: 500px ;
+    /* margin-left: 500px ; */
+    /* margin-top: 15px ;
+    margin-bottom: 15px ; */
 }
 
-section div {
-    background-color: orangered ;
-    height: 200px ;
-    width: 415px ;
-    /* padding: 20px ; */
-    margin-top: 20px ;
-    margin-bottom: 20px ;
 
-}
 
 
 /* Classes*/
@@ -77,17 +71,17 @@ section div {
     align-items: flex-end ;
     height: 225px ;
     background-image: url("../images/color_leaf.jpg") ;
-    /* background-repeat: no-repeat ; */
     background-size: cover ;
     width: 100% ;
 }
 
-#work1 {
+#work-main1 {
     width: 850px ;
     height: 500px ;
+    background-color: orangered ;
 }
 
-#work2 {
+#work-main2 {
     display: flex ;
     flex-wrap: wrap ;
     height: 500px ;
@@ -95,12 +89,22 @@ section div {
     width: 850px ;
 }
 
-#work2-1, #work2-3 {
+#work-main2-1, #work-main2-3 {
     margin-right: 10px ;
+    background-color: orangered ;
+    height: 200px ;
+    width: 415px ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
 }
 
-#work2-2, #work2-4 {
+#work-main2-2, #work-main2-4 {
     margin-left: 10px ;
+    background-color: orangered ;
+    height: 200px ;
+    width: 415px ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
 }
 
 #contactMe div {
@@ -112,5 +116,8 @@ section div {
 
 #resume div {
     background-color: rgb(7, 51, 7) ;
-
+    height: 200px ;
+    width: 415px ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
 }
