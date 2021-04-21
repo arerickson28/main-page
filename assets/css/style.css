@@ -34,6 +34,10 @@ header {
     height: 90px ;
 }
 
+a {
+    color: white ;
+}
+
 ul {
     display: inline ;
     color: var(--theme) ;
