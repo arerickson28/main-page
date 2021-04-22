@@ -9,6 +9,7 @@ body {
     /* --header: rgb(70, 68, 68) ; */
     --theme: white ;
     --header: rgb(6, 6, 61) ;
+
 }
 
 h1, h2 {
@@ -80,7 +81,6 @@ section {
 }
 
 #work-main1 {
-    /* width: 850px ; */
     height: 500px ;
     background-color: orangered ;
     margin-top: 20px ;
@@ -131,30 +131,6 @@ section {
     margin-right: 75px ;
 }
 
-/* #aboutMe {
-    display: flex ;
-}
-
-#aboutMe-side {
-    height: 142px ;
-    width: 500px ;
-} */
-
-/* #resume {
-    display: flex ;
-}
-
-#aboutMe {
-    display: flex ;
-}
-
-#contactMe {
-    display: flex ;
-}
-
-#work {
-    display: flex ;
-} */
 
 .side {
     display: flex ;
