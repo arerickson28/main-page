@@ -100,7 +100,6 @@ section {
     flex-wrap: wrap ;
     height: 250px ;
     background-color: white ;
-    /* margin-bottom: 0px ; */
 }
 
 .work-main2-1 {
@@ -157,4 +156,8 @@ section {
 
 .wrapper {
     margin-left: auto ;
+}
+
+#this {
+    margin-top: 20px ;
 }
