@@ -135,7 +135,8 @@ section {
 
 #aboutMe-main {
     margin-right: 75px ;
-    /* width: 850px ; */
+    display: flex ;
+    align-items: center ;
 }
 
 
