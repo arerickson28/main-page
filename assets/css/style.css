@@ -17,7 +17,9 @@ body {
 
 }
 
-
+p {
+    font-size: larger ;
+}
 
 h1, h2 {
     background-color: var(--theme)  ;
@@ -166,4 +168,25 @@ section {
 
 #this {
     margin-top: 20px ;
+}
+
+
+#resume-main:hover {
+    box-shadow: inset 0px 0px 8px 
+    var(--header), 0 0 15px var(--header) ;
+}
+
+#contactMe-main:hover {
+    box-shadow: inset 0px 0px 8px 
+    var(--header), 0 0 15px var(--header) ;
+}
+
+#work-main1:hover {
+    box-shadow: inset 0px 0px 8px 
+    var(--header), 0 0 15px var(--header) ;
+}
+
+.work-main2-1:hover {
+    box-shadow: inset 0px 0px 8px 
+    var(--header), 0 0 15px var(--header) ;
 }
