@@ -63,7 +63,6 @@ section {
    margin: 30px 0 ;
    padding: 20px 0 ;
    flex-direction: row ;
-   /* flex-wrap: wrap ; */
    align-items: stretch ;
    justify-content: space-between ;
 }
@@ -101,14 +100,13 @@ section {
     flex-wrap: wrap ;
     height: 250px ;
     background-color: white ;
-    /* width: 850px ; */
+    /* margin-bottom: 0px ; */
 }
 
 .work-main2-1 {
     margin-right: 30px ;
     background-color: orangered ;
-    height: 200px ;
-    /* width: 415px ; */
+    /* height: 200px ; */
     margin-top: 20px ;
     margin-bottom: 20px ;
     flex-grow: 4 ;
@@ -117,7 +115,6 @@ section {
 #resume-main {
     background-color: rgb(7, 51, 7) ;
     height: 200px ;
-    /* width: 850px ; */
     margin-top: 20px ;
     margin-bottom: 20px ;
     margin-right: 75px ;
@@ -125,7 +122,6 @@ section {
 
 #contactMe-main {
     background-color: maroon ;
-    /* width: 850px ; */
     height: 100px ;
     margin-top: 20px ;
     margin-bottom: 20px ;
