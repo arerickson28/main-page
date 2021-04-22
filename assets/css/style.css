@@ -50,13 +50,9 @@ li {
     font-size: x-large ;
 }
 
-section {
-    /* margin-left: 500px ; */
-    /* margin-top: 15px ;
-    margin-bottom: 15px ; */
-}
-
-
+/* section {
+   display: flex ;
+} */
 
 
 /* Classes*/
@@ -83,6 +79,7 @@ section {
     width: 850px ;
     height: 500px ;
     background-color: orangered ;
+    margin-top: 20px ;
 }
 
 #work-main2 {
@@ -121,9 +118,52 @@ section {
     margin-bottom: 20px ;
 }
 
-#contactMe {
+#contactMe-main {
     background-color: maroon ;
     width: 850px ;
     height: 100px ;
  
+}
+
+/* #aboutMe {
+    display: flex ;
+}
+
+#aboutMe-side {
+    height: 142px ;
+    width: 500px ;
+} */
+
+#resume {
+    display: flex ;
+    /* justify-content: space-between; */
+}
+
+#aboutMe {
+    display: flex ;
+}
+
+#contactMe {
+    display: flex ;
+}
+
+#work {
+    display: flex ;
+}
+
+.side {
+    display: flex ;
+    align-items: center ;
+    justify-content: flex-end ;
+    border-right: solid ;
+    border-color: var(--header) ;
+    flex-grow: 1 ;
+    margin-right: 45px ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+.main {
+    flex-grow: 4 ;
+    margin-right: 45px ;
 }
