@@ -98,6 +98,22 @@ section {
     background-color: rgb(180, 49, 24) ;
     margin-top: 20px ;
     margin-right: 30px ;
+    display: flex ;
+    align-items: flex-end ;
+    border: solid ;
+    border-width: 1px ;
+    border-color: rgb(180, 49, 24) ;
+}
+
+#work-main1 h2 {
+    padding-left: 75px ;
+    margin-bottom: 80px ;
+}
+
+
+
+.work-main2 h2 {
+    padding-left: 75px ;
 }
 
 .work-main2 {
@@ -115,15 +131,29 @@ section {
     margin-top: 20px ;
     margin-bottom: 20px ;
     flex-grow: 4 ;
+    display: flex ;
+    align-items: flex-end ;
+    border: solid ;
+    border-width: 1px ;
+    border-color: rgb(180, 49, 24) ;
 }
 
 #resume-main {
-    background-color: rgb(7, 51, 7) ;
+    background-color: rgb(6, 37, 6) ;
     /* background-color: rgb(61, 14, 18) ; */
     height: 200px ;
     margin-top: 20px ;
     margin-bottom: 20px ;
     margin-right: 75px ;
+    display: flex ;
+    align-items: flex-end ;
+    border-color:rgb(6, 37, 6) ;
+    border: solid ;
+    border-width: 1px ;
+}
+
+#resume-main h2 {
+    padding-left: 75px ;
 }
 
 #contactMe-main {
@@ -133,7 +163,16 @@ section {
     margin-top: 20px ;
     margin-bottom: 20px ;
     margin-right: 75px ;
+    display: flex ;
+    align-items: flex-end ;
+    border: solid ;
+    border-width: 1px ;
+    border-color:rgb(61, 14, 18) ;
  
+}
+
+#contactMe-main h2 {
+    padding-left: 75px ;
 }
 
 #aboutMe-main {
@@ -142,6 +181,13 @@ section {
     align-items: center ;
 }
 
+#profile-pic {
+    height: 200px ;
+    margin-right: 40px ;
+    border: solid ;
+    border-width: 2px ;
+    border-color: var(--header) ;
+}
 
 .side {
     display: flex ;
@@ -157,6 +203,11 @@ section {
     max-width: 300px ;
 }
 
+#aboutMe-side {
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+}
+
 .main {
     flex-grow: 4 ;
     margin-right: 45px ;
@@ -167,7 +218,7 @@ section {
     margin-left: auto ;
 }
 
-#this {
+#work-main2 {
     margin-top: 20px ;
 }
 
